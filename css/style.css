@@ -24,12 +24,13 @@ nav ul li{
 }
 footer{
     background-color: grey;
-    display:flex;
-    align-items:center;
-    height: 100%;
+    width: 100%;
+    
 }
-footer ul li{
-    list-style-type: none;
-    align-items:start;
+footer ul,li{
+    display:flex;
+    vertical-align:middle;
+    margin:0 auto;
     height: 100%;
+    align-items:flex-start;
 }
